@@ -57,7 +57,7 @@ def opcao_dois():
         menu_principal()    
 
     console.clear()
-    console.print(msgoriginal, style='bold blue')
+    console.print(Panel(msgoriginal, style='bold blue', expand=False, border_style='green'))
     console.input('[yellow bold]Aperter ENTER para continuar[/]')
     menu_principal()
 
